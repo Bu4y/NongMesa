@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+
 /*
   Generated class for the ChoicePage page.
 
@@ -14,6 +15,12 @@ export class ChoicePage {
 
   constructor(private navCtrl: NavController) {
 
+  }
+  answer1(){
+    alert("คุณตอบถูก");
+  }
+   answer2(){
+    alert("คุณตอบผิด");
   }
 
 }
