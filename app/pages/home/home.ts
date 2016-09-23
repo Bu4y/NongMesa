@@ -9,4 +9,7 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
+  gotoChoice(){
+    this.navCtrl.push(ChoicePage);
+  }
 }
