@@ -18,9 +18,11 @@ export class ChoicePage {
   }
   answer1(){
     alert("คุณตอบถูก");
+    this.navCtrl.pop();
   }
    answer2(){
     alert("คุณตอบผิด");
+    this.navCtrl.pop();
   }
 
 }
